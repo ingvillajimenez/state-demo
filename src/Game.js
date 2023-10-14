@@ -7,6 +7,8 @@ class Game extends Component {
       score: 0,
       gameOver: false,
     };
+    // NEVER CALL SETSTATE IN THE CONSTRUCTOR
+    // this.setState({ score: 0 });
   }
 
   render() {
